@@ -1,0 +1,58 @@
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+.navbar {
+    border-bottom: 1px solid #CCC;
+    color: #000;
+}
+
+img.logo {
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+}
+
+.jumbotron {
+    background: #FFF;
+    height: 400px;
+}
+
+img.tutorial-preview {
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 4px;
+}
+
+img.phone {
+    width: 90%;
+    max-width: 400px;
+}
+
+.jumbo-text {
+    float: left;
+}
+
+.jumbo-image {
+    float: right;
+}
+
+.jumbo-image img {
+    height: 357px;
+    margin-top: -34px;
+    margin-left: -420px;
+}
+
+.discord {
+    background-color: #7289da;
+    color: #FFF;
+}
+
+@media all and (max-width: 1200px) {
+    .jumbo-image {
+        display: none;
+    }
+}
